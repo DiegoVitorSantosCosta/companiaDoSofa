@@ -560,6 +560,7 @@ a i.google:hover {
 }
 .seller-grids a{
 	color:#999;
+  font-size: 16px;
 }
 .seller-grid a:hover{
 	color:#999;
@@ -1835,11 +1836,16 @@ a.cpns:hover{
 	padding:0;
 }
 
-
+@media (max-width:1800px){
+  .carousel-control-prev{
+    height: 300px;
+  }
+  .simpleCart_shelfitem a{
+    font-size: 10px;
+  }
+}
 @media (max-width: 1024px){
 
-	
-	
 .col-md2 {
 	width: 50%;
 	float: left;
